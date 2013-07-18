@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C74B006179799520031D064 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C74B005179799520031D064 /* UIKit.framework */; };
+		2C74B008179799520031D064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C74B007179799520031D064 /* Foundation.framework */; };
+		2C74B00A179799520031D064 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C74B009179799520031D064 /* CoreGraphics.framework */; };
+		2C74B010179799520031D064 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B00E179799520031D064 /* InfoPlist.strings */; };
+		2C74B012179799520031D064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C74B011179799520031D064 /* main.m */; };
+		2C74B016179799520031D064 /* QAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C74B015179799520031D064 /* QAppDelegate.m */; };
+		2C74B018179799520031D064 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B017179799520031D064 /* Default.png */; };
+		2C74B01A179799520031D064 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B019179799520031D064 /* Default@2x.png */; };
+		2C74B01C179799530031D064 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B01B179799530031D064 /* Default-568h@2x.png */; };
+		2C74B01F179799530031D064 /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C74B01E179799530031D064 /* QViewController.m */; };
+		2C74B022179799530031D064 /* QViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B020179799530031D064 /* QViewController.xib */; };
+		2C74B02B179799950031D064 /* QCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C74B02A179799950031D064 /* QCheckBox.m */; };
+		2C74B03217979A5B0031D064 /* check_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B02E17979A5B0031D064 /* check_icon.png */; };
+		2C74B03317979A5B0031D064 /* check_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B02F17979A5B0031D064 /* check_icon@2x.png */; };
+		2C74B03417979A5B0031D064 /* uncheck_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B03017979A5B0031D064 /* uncheck_icon.png */; };
+		2C74B03517979A5B0031D064 /* uncheck_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B03117979A5B0031D064 /* uncheck_icon@2x.png */; };
+		2C74B03A17979A720031D064 /* checkbox1_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B03617979A710031D064 /* checkbox1_checked.png */; };
+		2C74B03B17979A720031D064 /* checkbox1_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B03717979A710031D064 /* checkbox1_checked@2x.png */; };
+		2C74B03C17979A720031D064 /* checkbox1_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B03817979A720031D064 /* checkbox1_unchecked.png */; };
+		2C74B03D17979A720031D064 /* checkbox1_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C74B03917979A720031D064 /* checkbox1_unchecked@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C74B002179799520031D064 /* QCheckBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCheckBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C74B005179799520031D064 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C74B007179799520031D064 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C74B009179799520031D064 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C74B00D179799520031D064 /* QCheckBoxDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QCheckBoxDemo-Info.plist"; sourceTree = "<group>"; };
+		2C74B00F179799520031D064 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C74B011179799520031D064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C74B013179799520031D064 /* QCheckBoxDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCheckBoxDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2C74B014179799520031D064 /* QAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAppDelegate.h; sourceTree = "<group>"; };
+		2C74B015179799520031D064 /* QAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAppDelegate.m; sourceTree = "<group>"; };
+		2C74B017179799520031D064 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2C74B019179799520031D064 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2C74B01B179799530031D064 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2C74B01D179799530031D064 /* QViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
+		2C74B01E179799530031D064 /* QViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
+		2C74B021179799530031D064 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QViewController.xib; sourceTree = "<group>"; };
+		2C74B029179799950031D064 /* QCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCheckBox.h; sourceTree = "<group>"; };
+		2C74B02A179799950031D064 /* QCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCheckBox.m; sourceTree = "<group>"; };
+		2C74B02E17979A5B0031D064 /* check_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_icon.png; sourceTree = "<group>"; };
+		2C74B02F17979A5B0031D064 /* check_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check_icon@2x.png"; sourceTree = "<group>"; };
+		2C74B03017979A5B0031D064 /* uncheck_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck_icon.png; sourceTree = "<group>"; };
+		2C74B03117979A5B0031D064 /* uncheck_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheck_icon@2x.png"; sourceTree = "<group>"; };
+		2C74B03617979A710031D064 /* checkbox1_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_checked.png; sourceTree = "<group>"; };
+		2C74B03717979A710031D064 /* checkbox1_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_checked@2x.png"; sourceTree = "<group>"; };
+		2C74B03817979A720031D064 /* checkbox1_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_unchecked.png; sourceTree = "<group>"; };
+		2C74B03917979A720031D064 /* checkbox1_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_unchecked@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C74AFFF179799520031D064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C74B006179799520031D064 /* UIKit.framework in Frameworks */,
+				2C74B008179799520031D064 /* Foundation.framework in Frameworks */,
+				2C74B00A179799520031D064 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C74AFF9179799520031D064 = {
+			isa = PBXGroup;
+			children = (
+				2C74B00B179799520031D064 /* QCheckBoxDemo */,
+				2C74B004179799520031D064 /* Frameworks */,
+				2C74B003179799520031D064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C74B003179799520031D064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C74B002179799520031D064 /* QCheckBoxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C74B004179799520031D064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C74B005179799520031D064 /* UIKit.framework */,
+				2C74B007179799520031D064 /* Foundation.framework */,
+				2C74B009179799520031D064 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C74B00B179799520031D064 /* QCheckBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2C74B028179799950031D064 /* QCheckbox */,
+				2C74B014179799520031D064 /* QAppDelegate.h */,
+				2C74B015179799520031D064 /* QAppDelegate.m */,
+				2C74B01D179799530031D064 /* QViewController.h */,
+				2C74B01E179799530031D064 /* QViewController.m */,
+				2C74B020179799530031D064 /* QViewController.xib */,
+				2C74B00C179799520031D064 /* Supporting Files */,
+			);
+			path = QCheckBoxDemo;
+			sourceTree = "<group>";
+		};
+		2C74B00C179799520031D064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C74B02D17979A5B0031D064 /* images */,
+				2C74B00D179799520031D064 /* QCheckBoxDemo-Info.plist */,
+				2C74B00E179799520031D064 /* InfoPlist.strings */,
+				2C74B011179799520031D064 /* main.m */,
+				2C74B013179799520031D064 /* QCheckBoxDemo-Prefix.pch */,
+				2C74B017179799520031D064 /* Default.png */,
+				2C74B019179799520031D064 /* Default@2x.png */,
+				2C74B01B179799530031D064 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C74B028179799950031D064 /* QCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				2C74B03617979A710031D064 /* checkbox1_checked.png */,
+				2C74B03717979A710031D064 /* checkbox1_checked@2x.png */,
+				2C74B03817979A720031D064 /* checkbox1_unchecked.png */,
+				2C74B03917979A720031D064 /* checkbox1_unchecked@2x.png */,
+				2C74B029179799950031D064 /* QCheckBox.h */,
+				2C74B02A179799950031D064 /* QCheckBox.m */,
+			);
+			path = QCheckbox;
+			sourceTree = "<group>";
+		};
+		2C74B02D17979A5B0031D064 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2C74B02E17979A5B0031D064 /* check_icon.png */,
+				2C74B02F17979A5B0031D064 /* check_icon@2x.png */,
+				2C74B03017979A5B0031D064 /* uncheck_icon.png */,
+				2C74B03117979A5B0031D064 /* uncheck_icon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C74B001179799520031D064 /* QCheckBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C74B025179799530031D064 /* Build configuration list for PBXNativeTarget "QCheckBoxDemo" */;
+			buildPhases = (
+				2C74AFFE179799520031D064 /* Sources */,
+				2C74AFFF179799520031D064 /* Frameworks */,
+				2C74B000179799520031D064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCheckBoxDemo;
+			productName = QCheckBoxDemo;
+			productReference = 2C74B002179799520031D064 /* QCheckBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C74AFFA179799520031D064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Q;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ivan;
+			};
+			buildConfigurationList = 2C74AFFD179799520031D064 /* Build configuration list for PBXProject "QCheckBoxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C74AFF9179799520031D064;
+			productRefGroup = 2C74B003179799520031D064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C74B001179799520031D064 /* QCheckBoxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C74B000179799520031D064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C74B010179799520031D064 /* InfoPlist.strings in Resources */,
+				2C74B018179799520031D064 /* Default.png in Resources */,
+				2C74B01A179799520031D064 /* Default@2x.png in Resources */,
+				2C74B01C179799530031D064 /* Default-568h@2x.png in Resources */,
+				2C74B022179799530031D064 /* QViewController.xib in Resources */,
+				2C74B03217979A5B0031D064 /* check_icon.png in Resources */,
+				2C74B03317979A5B0031D064 /* check_icon@2x.png in Resources */,
+				2C74B03417979A5B0031D064 /* uncheck_icon.png in Resources */,
+				2C74B03517979A5B0031D064 /* uncheck_icon@2x.png in Resources */,
+				2C74B03A17979A720031D064 /* checkbox1_checked.png in Resources */,
+				2C74B03B17979A720031D064 /* checkbox1_checked@2x.png in Resources */,
+				2C74B03C17979A720031D064 /* checkbox1_unchecked.png in Resources */,
+				2C74B03D17979A720031D064 /* checkbox1_unchecked@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C74AFFE179799520031D064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C74B012179799520031D064 /* main.m in Sources */,
+				2C74B016179799520031D064 /* QAppDelegate.m in Sources */,
+				2C74B01F179799530031D064 /* QViewController.m in Sources */,
+				2C74B02B179799950031D064 /* QCheckBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C74B00E179799520031D064 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C74B00F179799520031D064 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C74B020179799530031D064 /* QViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C74B021179799530031D064 /* en */,
+			);
+			name = QViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C74B023179799530031D064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C74B024179799530031D064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C74B026179799530031D064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QCheckBoxDemo/QCheckBoxDemo-Prefix.pch";
+				INFOPLIST_FILE = "QCheckBoxDemo/QCheckBoxDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C74B027179799530031D064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QCheckBoxDemo/QCheckBoxDemo-Prefix.pch";
+				INFOPLIST_FILE = "QCheckBoxDemo/QCheckBoxDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C74AFFD179799520031D064 /* Build configuration list for PBXProject "QCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C74B023179799530031D064 /* Debug */,
+				2C74B024179799530031D064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C74B025179799530031D064 /* Build configuration list for PBXNativeTarget "QCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C74B026179799530031D064 /* Debug */,
+				2C74B027179799530031D064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C74AFFA179799520031D064 /* Project object */;
+}
